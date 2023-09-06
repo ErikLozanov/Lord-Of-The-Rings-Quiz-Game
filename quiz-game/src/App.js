@@ -1,5 +1,4 @@
 
-
 import { MainMenu } from "./components/MainMenu/MainMenu";
 
 function App() {

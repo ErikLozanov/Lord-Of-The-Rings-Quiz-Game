@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { data } from '../../helpers/carouselPictures';
-
+import styles from './mainMenu.module.css';
 export const  ControlledCarousel = () => {
 
   const [index, setIndex] = useState(0);
@@ -11,10 +11,10 @@ export const  ControlledCarousel = () => {
   };
 
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel className={styles.carousel} activeIndex={index} onSelect={handleSelect}>
       {data.map((slide, i) => {
         return (
-          <Carousel.Item>        
+          <Carousel.Item key={i}>        
         <img
           className="d-block w-100"
           src={slide.image}

@@ -8,17 +8,36 @@
     /* bottom, image */
     url("https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-t1a7bjegd66zqs8i.jpg");
     border-radius: 5px;
-    border-color: coral;
+    border-color: darksalmon;
     border-style: groove;
 }
 
 .text {
+    margin-left: 50px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
     font-size: 1.5rem;
+}
+
+.textQuiz {
+    margin-left: 150px;
+    margin-right: 100px;
 }
 
 .text:hover {
     color: bisque;
+}
+
+.carousel {
+    width: 1000px;
+    margin: 170px auto;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    align-self: center;
+}
+
+.lotr {
+    pointer-events: none;
 }

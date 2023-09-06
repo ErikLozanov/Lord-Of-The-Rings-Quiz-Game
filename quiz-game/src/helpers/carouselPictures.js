@@ -5,13 +5,28 @@ export const data = [
         description: "Description"
     },
     {
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVNDXblEUzk5Cy3iwwCWMvwNNuUqv1nbZaoQ&usqp=CAU',
+        image: 'https://w.wallhaven.cc/full/0p/wallhaven-0pop79.jpg',
         caption: "Caption",
         description: "Description"
     },
     {
-        image: 'https://www.theonering.net/torwp/wp-content/uploads/2021/08/LOTR-ultrawide-1440-16x9-1-scaled.jpg',
+        image: 'https://images4.alphacoders.com/860/86098.jpg',
         caption: "Caption",
         description: "Description"
-    }
+    },
+    {
+        image: 'https://w.wallha.com/ws/14/1N3hW4Xj.jpg',
+        caption: "Caption",
+        description: "Description"
+    },
+    {
+        image: 'https://www.giantfreakinrobot.com/wp-content/uploads/2021/01/lord-of-the-rings.jpg',
+        caption: "Caption",
+        description: "Description"
+    },
+    {
+        image: 'https://wallpaperaccess.com/full/855973.jpg',
+        caption: "Caption",
+        description: "Description"
+    },
 ];

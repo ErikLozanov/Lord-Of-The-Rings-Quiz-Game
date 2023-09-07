@@ -3,6 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import style from "../MainMenu/mainMenu.module.css";
 
+import { Link } from 'react-router-dom';
+
 export const Header = () => {
     return (
         <Navbar expand="lg" className={`${style.navBar} bg-body-tertiary nav-bar`}>
@@ -11,10 +13,10 @@ export const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link className={style.text} href="#home">Home</Nav.Link>
-              <Nav.Link className={`${style.text} ${style.textQuiz}`} href="#home">Start Quiz</Nav.Link>
-              <Nav.Link className={style.text}  href="#link">Fun Facts</Nav.Link>
-              <Nav.Link className={style.text}  href="#link">About</Nav.Link>
+              <Nav.Link as={Link} className={style.text} to='/'>Home</Nav.Link>
+              <Nav.Link as={Link} className={`${style.text} ${style.textQuiz}`} to='/start-quiz'>Start Quiz</Nav.Link>
+              <Nav.Link as={Link} className={style.text}  to='/fun-facts'>Fun Facts</Nav.Link>
+              <Nav.Link as={Link} className={style.text}  to='/about'>About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

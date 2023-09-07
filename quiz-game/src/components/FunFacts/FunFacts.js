@@ -1,12 +1,13 @@
-import { Header } from '../MainMenu/Header';
-import style from './about.module.css';
+import { Header } from "../MainMenu/Header";
+import styles from "./funFacts.module.css"
 
-export const About = () => {
+export const FunFacts = () => {
+     
     return (
         <>
-        <Header />
-        <div className={style.aboutPage}>
-            <h1 style={{fontSize: "60px"}}>About Page</h1>
+                <Header />
+        <div className={styles.funFactPage}>
+            <h1 style={{fontSize: "60px"}}>Fun Facts</h1>
             <p style={{fontSize: "20px"}}>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Incidunt ad officiis esse explicabo magnam doloremque asperiores
@@ -15,4 +16,4 @@ export const About = () => {
         </div>
         </>
     );
-};
+}

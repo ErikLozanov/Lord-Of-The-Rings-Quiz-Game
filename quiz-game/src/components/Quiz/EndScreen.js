@@ -15,7 +15,7 @@ export const EndScreen = () => {
         <div className={style.quizPage}>
             
         <div className={style.startWindow}>
-            <h1>Quiz Finished</h1>
+            <h1>Your result is:</h1>
             <h3> {score} / {easyMode.length}</h3>
             <div className={style.buttons}>
             <Button as={Link} onClick={() => setScore(0)} to='/quiz/easy-mode' variant="dark">Try Again</Button>

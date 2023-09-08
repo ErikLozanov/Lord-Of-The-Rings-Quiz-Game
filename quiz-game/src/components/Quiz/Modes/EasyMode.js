@@ -1,5 +1,6 @@
 import { useContext, useState } from "react";
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 
 import styles from "../quiz.module.css"
 import { easyMode } from "../../../helpers/QuestionBank";
@@ -32,10 +33,10 @@ export const EasyMode = () => {
         <h1>{easyMode[currQuestion].prompt}</h1>
             <div className="options">
                 
-            <Button onClick={() => setChosenOption('A')} variant="secondary">{easyMode[currQuestion].optionA}</Button>{' '}
-            <Button onClick={() => setChosenOption('B')} variant="secondary">{easyMode[currQuestion].optionB}</Button>{' '}
-            <Button onClick={() => setChosenOption('C')} variant="secondary">{easyMode[currQuestion].optionC}</Button>{' '}
-            <Button onClick={() => setChosenOption('D')} variant="secondary">{easyMode[currQuestion].optionD}</Button>{' '}
+            <Button className={styles.btn} onClick={() => setChosenOption('A')} variant="secondary">{easyMode[currQuestion].optionA}</Button>{' '}
+            <Button className={styles.btn} onClick={() => setChosenOption('B')} variant="secondary">{easyMode[currQuestion].optionB}</Button>{' '}
+            <Button className={styles.btn} onClick={() => setChosenOption('C')} variant="secondary">{easyMode[currQuestion].optionC}</Button>{' '}
+            <Button className={styles.btn} onClick={() => setChosenOption('D')} variant="secondary">{easyMode[currQuestion].optionD}</Button>{' '}
             </div>
 
             {currQuestion === easyMode.length - 1 ? 
@@ -44,6 +45,7 @@ export const EasyMode = () => {
             <Button onClick={nextQuestion} variant="success">Next Question</Button>
         }
             </div>
+            {/* <Image className={styles.easyModeWindow} src={easyMode[currQuestion].imageUrl} fluid />; */}
         </div>
     );
 }

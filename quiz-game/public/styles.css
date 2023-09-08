@@ -9,6 +9,13 @@ body {
     url("https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-t1a7bjegd66zqs8i.jpg");
 }
 
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
 
 
 

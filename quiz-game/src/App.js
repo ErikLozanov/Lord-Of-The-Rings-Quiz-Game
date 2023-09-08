@@ -11,6 +11,7 @@ import { EasyMode } from './components/Quiz/Modes/EasyMode';
 import { MediumMode } from './components/Quiz/Modes/MediumMode';
 import { HardMode } from './components/Quiz/Modes/HardMode';
 import { EndScreen } from './components/Quiz/EndScreen';
+import { Footer } from './components/Footer/Footer';
 
 function App() {
   const [gameState,setGameState] = useState('');
@@ -38,6 +39,7 @@ function App() {
       </Routes>
       
     </div>
+    <Footer />
       </QuizContext.Provider>
   );
 }

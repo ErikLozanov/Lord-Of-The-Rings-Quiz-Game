@@ -16,12 +16,16 @@ import { Footer } from './components/Footer/Footer';
 function App() {
   const [gameState,setGameState] = useState('');
   const [score,setScore] = useState(0);
+  const [currMode, setCurrMode] = useState([]);
+
 
   const contextValues = {
       gameState,
       setGameState,
       score,
-      setScore
+      setScore,
+      currMode,
+      setCurrMode
   }
 
   return (

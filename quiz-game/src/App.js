@@ -7,9 +7,7 @@ import { MainMenu } from "./components/MainMenu/MainMenu";
 import { About } from './components/About/About';
 import { FunFacts } from './components/FunFacts/FunFacts';
 import { Quiz } from './components/Quiz/Quiz';
-import { EasyMode } from './components/Quiz/Modes/EasyMode';
-import { MediumMode } from './components/Quiz/Modes/MediumMode';
-import { HardMode } from './components/Quiz/Modes/HardMode';
+import { QuizMode } from './components/Quiz/Modes/QuizModes';
 import { EndScreen } from './components/Quiz/EndScreen';
 import { Footer } from './components/Footer/Footer';
 
@@ -36,9 +34,7 @@ function App() {
         <Route path='/start-quiz' element={<Quiz />} />
         <Route path='/fun-facts' element={<FunFacts />} />
         <Route path='/about' element={<About />} />
-        <Route path='/quiz/easy-mode' element={<EasyMode />}></Route>
-        <Route path='/quiz/medium-mode' element={<MediumMode />}></Route>
-        <Route path='/quiz/hard-mode' element={<HardMode />}></Route>
+        <Route path='/quiz/quizMode' element={<QuizMode />}></Route>
         <Route path='/quiz/end-screen' element={<EndScreen />} />
       </Routes>
       

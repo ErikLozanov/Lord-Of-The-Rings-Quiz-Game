@@ -29,9 +29,9 @@ export const Quiz = () => {
          <h1>Hello Adventurer!</h1>
             <p>We are glad that you are here, our Quiz has 3 modes that you can try.</p>
             <div className={styles.modes}>
-            <Button as={Link} onClick={() => gamemodes('Easy')} to='/quiz/easy-mode' variant="success">Easy</Button>{' '}
-            <Button as={Link} onClick={() => gamemodes('Medium')} to='/quiz/easy-mode' variant="warning">Medium</Button>{' '}
-            <Button as={Link} onClick={() => gamemodes('Hard')} to='/quiz/easy-mode' variant="danger">Hard</Button>{' '}
+            <Button as={Link} onClick={() => gamemodes('Easy')} to='/quiz/quizMode' variant="success">Easy</Button>{' '}
+            <Button as={Link} onClick={() => gamemodes('Medium')} to='/quiz/quizMode' variant="warning">Medium</Button>{' '}
+            <Button as={Link} onClick={() => gamemodes('Hard')} to='/quiz/quizMode' variant="danger">Hard</Button>{' '}
             </div>
         </div>
         </div>

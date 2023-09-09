@@ -6,7 +6,7 @@ import styles from "../quiz.module.css"
 import { QuizContext } from "../../../helpers/Contexts";
 import { Link} from "react-router-dom";
 
-export const EasyMode = () => {
+export const QuizMode = () => {
     const {score, setScore, currMode } = useContext(QuizContext)
     const [currQuestion,setCurrQuestion] = useState(0);
     const [chosenOption, setChosenOption] = useState('');

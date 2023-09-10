@@ -28,7 +28,7 @@ export const QuizMode = () => {
         <div className={styles.easyMode}>
             <div className={styles.easyModeWindow}>
         <h1>{currMode[currQuestion].prompt}</h1>
-            <div className="options">
+            <div className={styles.options}>
                 
             <Button className={styles.btn} onClick={() => setChosenOption('A')} variant="secondary">{currMode[currQuestion].optionA}</Button>{' '}
             <Button className={styles.btn} onClick={() => setChosenOption('B')} variant="secondary">{currMode[currQuestion].optionB}</Button>{' '}

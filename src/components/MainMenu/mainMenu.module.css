@@ -28,6 +28,19 @@
     color: bisque;
 }
 
+
+    body {  
+        background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.3)
+        ),
+        /* bottom, image */
+        url("https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-t1a7bjegd66zqs8i.jpg");
+    }
+
+
 .carousel {
     width: 1000px;
     margin: 170px auto;

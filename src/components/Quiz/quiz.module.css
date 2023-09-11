@@ -6,6 +6,7 @@
         ),
         /* bottom, image */
             url("https://wallpapers.com/images/hd/lord-of-the-rings-wallpaper-t1a7bjegd66zqs8i.jpg");
+            background-repeat: round;
 
     display: flex;
     justify-content: center;

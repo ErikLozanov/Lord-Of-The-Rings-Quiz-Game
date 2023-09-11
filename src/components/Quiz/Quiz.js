@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 
 import { easyMode,mediumMode, hardMode } from "../../helpers/QuestionBank";
+import { Header } from "../MainMenu/Header";
 
 export const Quiz = () => {
 
@@ -24,6 +25,9 @@ export const Quiz = () => {
     }
 
     return (
+        <>
+        <Header />
+
         <div className={styles.quizPage}>
         <div className={styles.startWindow}>
          <h1>Hello Adventurer!</h1>
@@ -35,5 +39,6 @@ export const Quiz = () => {
             </div>
         </div>
         </div>
+        </>
     );
 }

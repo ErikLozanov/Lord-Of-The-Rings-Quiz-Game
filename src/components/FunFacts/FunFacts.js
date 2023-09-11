@@ -1,19 +1,38 @@
-import { Header } from "../MainMenu/Header";
-import styles from "./funFacts.module.css"
+import styles from './funFacts.module.css';
+import { Header } from '../MainMenu/Header';
+import { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
+import { funFactsData } from '../../helpers/funFactsCarousel';
 
 export const FunFacts = () => {
      
-    return (
-        <>
-                <Header />
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };
+
+  return (
+    <>
+    <Header />
         <div className={styles.funFactPage}>
-            <h1 style={{fontSize: "60px"}}>Fun Facts</h1>
-            <p style={{fontSize: "20px"}}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt ad officiis esse explicabo magnam doloremque asperiores
-                sed accusantium exercitationem tenetur.
-            </p>
+            <Carousel className={styles.carousel} activeIndex={index} onSelect={handleSelect}>
+      {funFactsData.map((slide, i) => {
+        return (
+          <Carousel.Item key={i}>        
+        <img
+          className="d-block w-100"
+          src={slide.image}
+          alt="slider image"
+        />
+        <Carousel.Caption>
+          <p className={styles.desc}>{slide.description}</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+        )
+      })}
+    </Carousel>
         </div>
-        </>
-    );
+    </>
+  );
 }

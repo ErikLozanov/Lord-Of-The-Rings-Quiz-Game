@@ -19,4 +19,16 @@ export const funFactsData = [
     image: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/12/lord-of-the-rings-peter-jackson-cameos-header.jpg',
     description: "The director and his children had small cameos in each trilogy."
     },    
+    {
+    image: 'https://www.giantfreakinrobot.com/wp-content/uploads/2022/02/galadriel-lord-of-the-rings.jpg',
+    description: "Cate Blanchett was given her elf ears as a gift after filming was done because she loved her character so much."
+    },    
+    {
+    image: 'https://www.giantfreakinrobot.com/wp-content/uploads/2022/02/galadriel-lord-of-the-rings.jpg',
+    description: "Cate Blanchett was given her elf ears as a gift after filming was done because she loved her character so much."
+    },    
+    {
+    image: 'https://www.slashfilm.com/img/gallery/sean-bean-scaled-an-actual-mountain-to-get-to-set-for-the-lord-of-the-rings/l-intro-1660586553.jpg',
+    description: "Sean Bean climbed the mountains of New Zealand daily to get to the set."
+    },    
 ]

@@ -20,8 +20,8 @@ export const funFactsData = [
     description: "The director and his children had small cameos in each trilogy."
     },    
     {
-    image: 'https://www.giantfreakinrobot.com/wp-content/uploads/2022/02/galadriel-lord-of-the-rings.jpg',
-    description: "Cate Blanchett was given her elf ears as a gift after filming was done because she loved her character so much."
+    image: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/03/nicolas-cage-lord-of-the-rings.jpg',
+    description: "Nicolas Cage was originally supposed to play the role of Aragorn."
     },    
     {
     image: 'https://www.giantfreakinrobot.com/wp-content/uploads/2022/02/galadriel-lord-of-the-rings.jpg',

@@ -17,8 +17,8 @@ export const  ControlledCarousel = () => {
           <Carousel.Item key={i}>        
         <img
           className="d-block w-100"
-          src={slide.image}
-          alt="slider image"
+          src={slide.imageUrl}
+          alt="slider"
         />
         <Carousel.Caption>
           <h3>{slide.caption}</h3>

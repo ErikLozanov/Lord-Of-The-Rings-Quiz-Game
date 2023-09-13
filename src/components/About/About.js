@@ -6,7 +6,7 @@ export const About = () => {
         <>
             <Header />
             <div className={style.aboutPage}>
-                <h1 style={{ fontSize: "60px" }}>About Page</h1>
+                <h1 style={{ fontSize: "60px",textShadow: "4px 4px 2px rgba(0,0,0,0.6)"}}>About Page</h1>
                 <div className={style.infoWindow}>
                     <h2>
                         Welcome to Middle-earth: The Ultimate Lord of the Rings

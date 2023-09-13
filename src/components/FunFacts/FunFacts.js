@@ -15,7 +15,10 @@ export const FunFacts = () => {
   return (
     <>
     <Header />
+
+       
         <div className={styles.funFactPage}>
+    <h1 style={{ marginTop:"50px",fontSize: "60px",textShadow: "4px 4px 2px rgba(0,0,0,0.6)"}}>Fun Facts</h1>
             <Carousel className={styles.carousel} activeIndex={index} onSelect={handleSelect}>
       {funFactsData.map((slide, i) => {
         return (

@@ -1,3 +1,5 @@
+Try it out by yourself: https://lord-of-the-rings-quiz-ecd11.web.app/
+
 
 ![LotrQuizMainMenu](https://github.com/ErikLozanov/Lord-Of-The-Rings-Quiz-Game/assets/122800063/e9f37dd8-d78a-4bc2-a4ef-bd5f5abe915b)
 
